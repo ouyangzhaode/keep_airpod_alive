@@ -1,22 +1,9 @@
-#best time 25 sec
+# will create a beeb at 37hz, and last for 0 second. 
+# 37hz is the lowest you can set. You can pick any frequency
 
 import winsound
 import time
 
-count = 0
-
 while True:
-    winsound.Beep(37, 1000)
-    print(count)
-    count +=1
-    time.sleep(5)
-
-#111
-#222
-#333
-#444
-#555
-#666
-#777
-#888
-#999
+    winsound.Beep(37, 0)
+    time.sleep(20) # best time is 20 sec. 
